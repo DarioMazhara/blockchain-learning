@@ -1,0 +1,15 @@
+Learning via this tutorial, which demonstrates how to build a blockchain application with a 
+basic mining scheme, conesnsus, and peer-to-peer networking
+
+Design: "every node in the network can add data (strings) to the decentralized ledger (blockchain) 
+by mining a valid block locally and then broadcasting that block." - Mario Zupan
+
+"as long as it is a valid block, each node will add the block to its chain and our piece of
+data become part of a decentralized, tamper-proof, indestructible network" - Mario Zupan
+
+Dependencies
+
+libp2p = used as the peer-to-peer networking layer
+tokio = underlying runtime
+sha2 = library for sha256 hashing
+hex = transform binary hashes into readable and transferrable hex
